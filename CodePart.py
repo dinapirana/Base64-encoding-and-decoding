@@ -13,3 +13,8 @@ if user_input.lower() == 'q':
 
         # Decoding the encoded string using base64
         decoded_bytes = base64.b64decode(encoded_string.encode('utf-8'))
+
+decoded_string = decoded_bytes.decode('utf-8')
+        print("Decoded: ", decoded_string)
+
+encode_decode_base64()
